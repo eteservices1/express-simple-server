@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
 });
 
 // Listen
-var port = 443;
+var port = 3000;
 app.listen(port);
 console.log('Listening on localhost:'+ port);
